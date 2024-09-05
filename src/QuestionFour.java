@@ -34,6 +34,7 @@ public class QuestionFour {
             if(a == -1 && b == -1 && c == -1) {
                 break;
             }
+            //모든 텍스트를 각각 append 하도록 IDE에서 권장하며, 백준 기준 28ms정도의 시간이 단축되었습니다.
             sb.append("w(").append(a).append(", ").append(b).append(", ").append(c).append(") = ").append(w(a, b, c)).append('\n');
         }
         System.out.println(sb);
